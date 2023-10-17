@@ -1,0 +1,5 @@
+\connect todos-user@localhost:3306
+\sql
+use todos
+select * from todo;
+\quit
